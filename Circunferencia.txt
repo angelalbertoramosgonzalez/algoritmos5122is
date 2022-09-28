@@ -1,0 +1,8 @@
+Algoritmo sin_titulo
+	Escribir "Teclea La Longitud De El Area" ;
+	Leer a
+	Escribir "Teclea El Radio De El Circulo" ;
+	Leer r
+	radio <- (3.1416 + a * r)
+	Escribir radio
+FinAlgoritmo

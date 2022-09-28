@@ -1,0 +1,27 @@
+Algoritmo sin_titulo
+	Escribir "Ingresa el Primer Numero" ;
+	Leer n1
+	Escribir "Ingresa El Segundo Numero" ;
+	Leer n2
+	Si (n1> n2) Entonces
+		Escribir "Primer Numero mas grande" 
+	Sino 
+		si (n2 > n1) entonces 
+			Escribir "Segundo Numero mas grande"
+			
+	Sino 
+		Si (n1 <= n1)
+			Escribir "Son Iguales"
+			
+	Sino
+		Si (n2 <= n2)
+			Escribir "Son Iguales"
+		FinSi
+	FinSi
+	
+	FinSi
+FinSi
+
+
+
+FinAlgoritmo

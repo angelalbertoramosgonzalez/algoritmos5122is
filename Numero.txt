@@ -1,0 +1,35 @@
+Algoritmo sin_titulo
+	Escribir "Ingresa El Primer Numero"
+	Leer n1
+	Escribir "Ingresa El Segundo Numero"
+	Leer n2
+	Escribir "Ingresa El Tercer Numero"
+	Leer n3
+	Si (n1>=n2 & n1>=n3 & n2>=n3)
+		Escribir " La Secuencia es:", n1,n2,n3;
+	SiNo
+		Si (n1>=n2 & n3>=n2 & n1>=n2)
+			Escribir " La Secuencia es:", n1,n3,n2;
+	SiNo
+		Si (n2>=n1 & n1>=n3 & n3>=n1)
+			Escribir " La Secuencia es:", n2,n1,n3;
+	SiNo
+		Si (n2>=n1 & n2>=n3 & n3>=n1)
+			Escribir " La Secuencia es:", n2,n3,n1;
+	SiNo
+		Si (n3>=n1 & n3>=n2 & n1>=n2)
+			Escribir " La Secuencia es:", n3,n1,n2;
+	SiNo
+		Si (n3>=n1 & n3>=n2 & n1>=n2)
+			Escribir " La Secuencia es:", n3,n1,n2;
+		FinSi
+	FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+
+
+
+
+FinAlgoritmo

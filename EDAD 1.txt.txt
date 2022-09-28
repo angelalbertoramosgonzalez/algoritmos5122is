@@ -1,0 +1,41 @@
+Algoritmo sin_titulo
+	Definir edad Como Entero;
+	Escribir "Ingresar Edad"
+	Leer edad;
+	Si (edad<= 0 )
+		Escribir "Sin Nacer";
+	Sino
+		Si(edad<= 3)
+			Escribir "Eres Un Bebe";
+	SiNo
+		Si(edad>= 3 & edad<= 10)
+			Escribir " Eres Un Niño " ;
+	Sino
+		Si(edad>=10 & edad<= 18)
+			Escribir "Estas Puberto" ;
+	Sino 
+		Si (edad>= 18 & edad<= 30)
+			Escribir "Estas Joven" ;
+	SiNo
+		Si (edad>=30 & edad<=40)	
+			Escribir "Estas Chavo Ruco" ;
+	Sino 
+		Si (edad>=40 & edad<= 50)
+			Escribir "Estas Don" ;
+    Sino
+		Si (edad>=60 & edad<= 70)
+			Escribir "Estas Señor" ;
+	Sino
+		Si (edad>=80 & edad<=560)
+			Escribir "Eres Un Milagro" ;
+				FinSi
+			FinSi
+		FinSi
+	Finsi
+FinSi
+FinSi
+Finsi
+Finsi
+FinSi
+
+FinAlgoritmo
